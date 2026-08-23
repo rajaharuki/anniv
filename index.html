@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy 3 bulan sayang 🖤</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+    <div class="loader-text">loading something special...</div>
+    <div class="loader-bar"></div>
+</div>
+
+<!-- CUSTOM CURSOR -->
+<div class="custom-cursor" id="cursor"></div>
+
+<!-- NOISE OVERLAY -->
+<canvas class="noise" id="noiseCanvas"></canvas>
+
+<!-- BG CANVAS -->
+<canvas id="bgCanvas"></canvas>
+
+<!-- SCENE TRANSITION -->
+<div class="scene-transition" id="transition"></div>
+
+<!-- SCENE NUMBER -->
+<div class="scene-num" id="sceneNum">01 / 04</div>
+
+<!-- PROGRESS NAV -->
+<div class="progress-nav" id="progressNav">
+    <div class="progress-dot active" onclick="goToScene(0)"></div>
+    <div class="progress-dot" onclick="goToScene(1)"></div>
+    <div class="progress-dot" onclick="goToScene(2)"></div>
+    <div class="progress-dot" onclick="goToScene(3)"></div>
+</div>
+
+<div class="scroll-hint" id="scrollHint">scroll atau klik untuk lanjut</div>
+
+<!-- SCENE 1 : INTRO -->
+<div class="scene active" id="scene0">
+    <div class="scene1-text"> Syifa & Raja</div>
+    <div class="scene1-main">
+        <span class="glitch" data-text="3 bulan">Happy Anniversary sayanggg</span>
+    </div>
+    <div class="scene1-sub">samaa kamu,akuu harapp kitaaa selaluu bisaaa ngelewatin semuaa</div>
+    <button class="btn-next" onclick="goToScene(1)">mulai ↓</button>
+</div>
+
+<!-- SCENE 2 : LIKA LIKU -->
+<div class="scene" id="scene1">
+    <div class="timeline-container">
+        <div class="timeline-label">— perjalanan kita —</div>
+        <div class="timeline-item" data-delay="0">
+            <div class="timeline-dot"></div>
+            <div class="timeline-text">awalnya gak gampang... kita sama-sama belajar gimana caranya saling ngerti</div>
+        </div>
+        <div class="timeline-item" data-delay="1">
+            <div class="timeline-dot"></div>
+            <div class="timeline-text">ada momen kita berantem, diem-dieman, ngerasa jauh banget satu sama lain</div>
+        </div>
+        <div class="timeline-item" data-delay="2">
+            <div class="timeline-dot"></div>
+            <div class="timeline-text">tapi kamu tetep ada... dan akuuu tetep milihh kamu</div>
+        </div>
+        <div class="timeline-item" data-delay="3">
+            <div class="timeline-dot"></div>
+            <div class="timeline-text">sekarang, 3 bulan udah kita lewatin bareng - dan ini baru awal</div>
+        </div>
+        <button class="btn-next" style="margin-top:30px; opacity:1; animation:none;" onclick="goToScene(2)">lanjut →</button>
+    </div>
+</div>
+
+<!-- SCENE 3 : PESAN -->
+<div class="scene" id="scene2">
+    <div class="msg-container">
+        <div class="msg-card">
+            <div class="msg-header">— malam ini, buat kamu —</div>
+            <div class="msg-scroll">
+                <div class="msg-text" id="msgText">
+                    <span>goodnight sayanggggku 🌙</span>
+                    <span>sleepp veryy well sayanggg</span>
+                    <span> </span>
+                    <span>makasihhh yaa sayaanggg udahh mauuu teteppp sama akuuu</span>
+                    <span>makasihh sayanggg udah mauuu keluarinn smuaa, kasihh semuaa sayanggg kamu ke akuuu</span>
+                    <span> </span>
+                    <span>besokk kitaa ceritaa banyakk yaa syaanggg 🤍</span>
+                    <span> </span>
+                    <span>maafinnnn semua salaahh akuu yangg gaa keitunggg sayangg...</span>
+                    <span>maaff atass akuu sempett daftar ituuu</span>
+                    <span> </span>
+                    <span>maaff kloo akuu kurangg effort atauu sabarr samaa sayangg yaaa</span>
+                    <span> </span>
+                    <span>semogaaa kitaa teruss belajarr yaaa syaangg 🌱</span>
+                    <span>semogaaa sayangg bisaaa teruss maafinn akuuu</span>
+                    <span>dannn bisaa nerimaa akuu sebagaii pemimpinn di hubungann inii</span>
+                    <span> </span>
+                    <span class="highlight">makasihh yaaa sayanggg 🖤</span>
+                    <span class="highlight">loveee u sayanggg</span>
+                </div>
+            </div>
+        </div>
+        <button class="btn-next" style="margin-top:25px; opacity:1; animation:none;" onclick="goToScene(3)">terakhir →</button>
+    </div>
+</div>
+
+<!-- SCENE 4 : FINAL -->
+<div class="scene" id="scene3">
+    <div class="final-wrap">
+        <div class="final-number">3</div>
+        <div class="final-content">
+            <div class="final-sub">— happy anniversary —</div>
+            <div class="final-title">3 bulan kamu & aku</div>
+            <div class="heart-big">🖤</div>
+            <div class="final-love">
+                dari semua lika liku yang udah kita lewatin,<br>
+                aku bersyukur masih bisa ada di sini<br>
+                pegang tangan kamu<br><br>
+                <em style="color:rgba(255,255,255,0.4); font-size:0.9em;">ini baru bulan ke-3,<br>dan aku mau terus nambah angkanya sama kamu</em>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
