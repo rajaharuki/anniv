@@ -7,56 +7,22 @@
 <meta name="description" content="empat bulan sama kamu.">
 <title>empat bulan · kingggg & encipppp</title>
 <style>
-:root{--paper:#fffaf9;--ink:#492632;--wine:#9d2449;--pink:#f7dce4;--line:#e7cdd5;--muted:#7d5863;--white:#fff;font-family:Arial,Helvetica,sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);line-height:1.7}
-a{color:inherit;text-decoration:none}.stitch{height:8px;background:repeating-linear-gradient(90deg,var(--wine) 0 22px,var(--paper) 22px 25px)}
-.wrap{width:min(1040px,calc(100% - 44px));margin:auto}header{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
-.brand{font:italic 22px Georgia,serif;color:var(--wine)}nav{display:flex;gap:24px;font-size:13px}nav a:hover{text-decoration:underline;text-underline-offset:5px}
-.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:52px;align-items:center;padding:76px 0 68px}.eyebrow{font-size:12px;letter-spacing:.15em;color:var(--muted);text-transform:uppercase}
-h1{font:normal clamp(52px,7vw,84px)/.98 Georgia,serif;letter-spacing:-.055em;margin:16px 0 24px}h1 em{font-weight:normal;color:var(--wine)}.intro{max-width:510px;color:var(--muted);white-space:pre-line}
-.jump{display:inline-block;color:var(--wine);border-bottom:1px solid var(--wine);margin-top:12px}
-.photo{position:relative;transform:rotate(2.4deg);background:#fff;padding:10px 10px 38px;box-shadow:13px 15px 0 #edd9df;border:1px solid var(--line)}.photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}.photo small{position:absolute;bottom:10px;left:14px;font:italic 15px Georgia,serif;color:var(--wine)}
-.meta{display:flex;justify-content:space-between;border-block:1px solid var(--line);padding:15px 0;color:var(--muted);font-size:12px}
-section{padding:74px 0}.grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:64px}.no{font:italic 15px Georgia,serif;color:var(--wine)}h2{font:normal clamp(36px,5vw,52px)/1.08 Georgia,serif;margin:12px 0;color:var(--ink)}.note{color:var(--muted);max-width:250px}
-.letter{background:#fff;border:1px solid var(--line);box-shadow:7px 7px 0 #f2e3e7;padding:34px}.letter p{white-space:pre-line;margin:0;font-size:16px;line-height:1.95}.sig{font:italic 23px Georgia,serif!important;color:var(--wine);margin-top:28px!important}
-.memory{border-top:1px solid var(--line)}.memory .grid{align-items:center}.memory-card{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center;background:var(--pink);padding:24px}.memory-card img{width:100%;aspect-ratio:4/5;object-fit:cover;border:8px solid #fff;transform:rotate(-1.6deg)}.memory-copy{padding:12px}.memory-copy b{font:italic 28px Georgia,serif;color:var(--wine)}.memory-copy p{color:var(--muted)}
-.closing{background:var(--wine);color:#fff6f8;text-align:center;padding:72px 24px}.closing p{font:italic clamp(28px,5vw,46px)/1.2 Georgia,serif;max-width:650px;margin:0 auto 18px}.closing small{letter-spacing:.12em}
-footer{display:flex;justify-content:space-between;padding:22px 0 36px;color:var(--muted);font-size:12px}
-.reveal{opacity:0;transform:translateY(18px);transition:.65s ease}.reveal.show{opacity:1;transform:none}
-@media(max-width:760px){.wrap{width:min(100% - 28px,1040px)}header{height:72px}nav{gap:14px}nav a:first-child{display:none}.hero,.grid{grid-template-columns:1fr;gap:34px}.hero{padding:48px 0}.photo{width:min(88%,380px);margin:auto}section{padding:52px 0}.memory-card{grid-template-columns:1fr}footer{gap:16px;flex-direction:column}}
+:root{--paper:#fffaf9;--ink:#492632;--wine:#9d2449;--pink:#f7dce4;--line:#e7cdd5;--muted:#7d5863;font-family:Arial,Helvetica,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);line-height:1.7}a{color:inherit;text-decoration:none}.stitch{height:8px;background:repeating-linear-gradient(90deg,var(--wine) 0 22px,var(--paper) 22px 25px)}.wrap{width:min(1040px,calc(100% - 44px));margin:auto}header{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:italic 22px Georgia,serif;color:var(--wine)}nav{display:flex;gap:24px;font-size:13px}nav a:hover{text-decoration:underline;text-underline-offset:5px}.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:52px;align-items:center;padding:76px 0 68px}.eyebrow{font-size:12px;letter-spacing:.15em;color:var(--muted);text-transform:uppercase}h1{font:normal clamp(52px,7vw,84px)/.98 Georgia,serif;letter-spacing:-.055em;margin:16px 0 24px}h1 em{font-weight:normal;color:var(--wine)}.intro{max-width:510px;color:var(--muted);white-space:pre-line}.jump{display:inline-block;color:var(--wine);border-bottom:1px solid var(--wine);margin-top:12px}.photo{position:relative;transform:rotate(2.4deg);background:#fff;padding:10px 10px 38px;box-shadow:13px 15px 0 #edd9df;border:1px solid var(--line);min-height:480px}.photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:#f5ecef}.photo small{position:absolute;bottom:10px;left:14px;font:italic 15px Georgia,serif;color:var(--wine)}.meta{display:flex;justify-content:space-between;border-block:1px solid var(--line);padding:15px 0;color:var(--muted);font-size:12px}section{padding:74px 0}.grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:64px}.no{font:italic 15px Georgia,serif;color:var(--wine)}h2{font:normal clamp(36px,5vw,52px)/1.08 Georgia,serif;margin:12px 0;color:var(--ink)}.note{color:var(--muted);max-width:250px}.letter{background:#fff;border:1px solid var(--line);box-shadow:7px 7px 0 #f2e3e7;padding:34px}.letter p{white-space:pre-line;margin:0;font-size:16px;line-height:1.95}.sig{font:italic 23px Georgia,serif!important;color:var(--wine);margin-top:28px!important}.memory{border-top:1px solid var(--line)}.memory .grid{align-items:center}.memory-card{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center;background:var(--pink);padding:24px}.memory-card img{width:100%;aspect-ratio:4/5;object-fit:cover;border:8px solid #fff;transform:rotate(-1.6deg);background:#f5ecef}.memory-copy{padding:12px}.memory-copy b{font:italic 28px Georgia,serif;color:var(--wine)}.memory-copy p{color:var(--muted)}.closing{background:var(--wine);color:#fff6f8;text-align:center;padding:72px 24px}.closing p{font:italic clamp(28px,5vw,46px)/1.2 Georgia,serif;max-width:650px;margin:0 auto 18px}.closing small{letter-spacing:.12em}footer{display:flex;justify-content:space-between;padding:22px 0 36px;color:var(--muted);font-size:12px}.reveal{opacity:0;transform:translateY(18px);transition:.65s ease}.reveal.show{opacity:1;transform:none}.photo-error{display:none;color:#9d2449;font-size:12px;margin-top:8px}@media(max-width:760px){.wrap{width:min(100% - 28px,1040px)}header{height:72px}nav{gap:14px}nav a:first-child{display:none}.hero,.grid{grid-template-columns:1fr;gap:34px}.hero{padding:48px 0}.photo{width:min(88%,380px);margin:auto;min-height:0}section{padding:52px 0}.memory-card{grid-template-columns:1fr}footer{gap:16px;flex-direction:column}}
 </style>
 </head>
 <body>
 <div class="stitch"></div>
-<header class="wrap">
-  <a class="brand" href="#">♡ kingggg & encipppp</a>
-  <nav><a href="#surat">surat kecil</a><a href="#foto">foto kita</a></nav>
-</header>
-
+<header class="wrap"><a class="brand" href="#">♡ kingggg & encipppp</a><nav><a href="#surat">surat kecil</a><a href="#foto">foto kita</a></nav></header>
 <main>
 <section class="wrap hero">
-  <div class="reveal">
-    <div class="eyebrow">cerita kita · bulan keempat</div>
-    <h1>empat bulan<br><em>sama kamu.</em></h1>
-    <p class="intro">happy 4 months, sayanggggggg. makasihh yaa saynggg udah nemenin aku sampai sejauhh iniii. makasihh jugaa udah surprise-in ulang tahunn akuuu, udah kasihh kadoo banyakkk, dann udah nemeninn setiapp jalann sulitt akuuu. akuu banggaaa sama kamuu yang kuatt nemeninn akuu. semoga kamu senyum pas buka inii heheheheh</p>
-    <a class="jump" href="#surat">ada surat buat kamu ↘</a>
-  </div>
-  <figure class="photo reveal">
-    <img src="" class="memory-photo" alt="foto kita">
-    <small>favoritku: kita. ♡</small>
-  </figure>
+<div class="reveal"><div class="eyebrow">cerita kita · bulan keempat</div><h1>empat bulan<br><em>sama kamu.</em></h1><p class="intro">happy 4 months, sayanggggggg. makasihh yaa saynggg udah nemenin aku sampai sejauhh iniii. makasihh jugaa udah surprise-in ulang tahunn akuuu, udah kasihh kadoo banyakkk, dann udah nemeninn setiapp jalann sulitt akuuu. akuu banggaaa sama kamuu yang kuatt nemeninn akuu. semoga kamu senyum pas buka inii heheheheh</p><a class="jump" href="#surat">ada surat buat kamu ↘</a></div>
+<figure class="photo reveal"><img id="foto1" alt="foto kita" decoding="async"><small>favoritku: kita. ♡</small><div class="photo-error" id="err1">foto lagi dimuat...</div></figure>
 </section>
-
 <div class="wrap meta"><span>sejak 23 mei 2026</span><span>edisi 04 / buat orang kesayanganku</span></div>
-
 <section class="wrap grid" id="surat">
-  <div class="reveal">
-    <div class="no">01 / sedikit dari aku</div>
-    <h2>sini, baca<br>sebentar.</h2>
-    <p class="note">ada yang kadang lebih gampang ditulis daripada diomongin.</p>
-  </div>
-  <article class="letter reveal">
-    <p>haiiiiii cantikkkkk
+<div class="reveal"><div class="no">01 / sedikit dari aku</div><h2>sini, baca<br>sebentar.</h2><p class="note">ada yang kadang lebih gampang ditulis daripada diomongin.</p></div>
+<article class="letter reveal"><p>haiiiiii cantikkkkk
 
 nggaa kerasaa kitaaa udaa 4 bulann sayanggg, makasihh yaa sayanggg udaaa banyakk belajarr barenggg.
 
@@ -73,39 +39,17 @@ buat bulan-bulan berikutnya, akuu masih mau jalanin ini sama kamu. masih mau ket
 marii salinggg berkenalan, salingg lebihh mengenall, penasarann satu samaa lainn yaa sayangg, dann salingg bertukarr pikirann atas posisi satuu samaa lainn, serta mengkomunikasikann secaraa transparann dann buktii yaa sayanggg.
 
 sayangggg amuuu bangettt.
-i will alwayss love youu so muchh saynggg.</p>
-    <p class="sig">dari kingggg, yang sayang kamu. ♡</p>
-  </article>
+i will alwayss love youu so muchh saynggg.</p><p class="sig">dari kingggg, yang sayang kamu. ♡</p></article>
 </section>
-
-<section class="memory" id="foto">
-  <div class="wrap grid">
-    <div class="reveal">
-      <div class="no">02 / yang pengin disimpan</div>
-      <h2>foto kita.</h2>
-      <p class="note">satu foto dulu di sini. sisanya kita kumpulin pelan-pelan.</p>
-    </div>
-    <div class="memory-card reveal">
-      <img src="" class="memory-photo" alt="foto kita">
-      <div class="memory-copy">
-        <b>04 months.</b>
-        <p>makasih udah jadi bagian dari semua cerita, dari yang gampang sampai yang bikin capek. akuu banggaaa sama kamuu yang kuatt nemeninn akuu.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="closing">
-  <p>akuu mauu teruss sama kamuu, belajar samaa kamuu, sampee kapanpun ituu.</p>
-  <small>HAPPY 4 MONTHS ♡</small>
-</section>
+<section class="memory" id="foto"><div class="wrap grid"><div class="reveal"><div class="no">02 / yang pengin disimpan</div><h2>foto kita.</h2><p class="note">yang ini wajib masuk, apalagi yang pas birthday hehe.</p></div><div class="memory-card reveal"><img id="foto2" alt="foto kita waktu birthday" loading="lazy" decoding="async"><div class="memory-copy"><b>04 months.</b><p>makasih udah jadi bagian dari semua cerita, dari yang gampang sampai yang bikin capek. akuu banggaaa sama kamuu yang kuatt nemeninn akuu.</p></div></div></div></section>
+<section class="closing"><p>akuu mauu teruss sama kamuu, belajar samaa kamuu, sampee kapanpun ituu.</p><small>HAPPY 4 MONTHS ♡</small></section>
 </main>
-
 <footer class="wrap"><span>kingggg & encipppp</span><span>sampai cerita berikutnya.</span></footer>
 <script>
-const PHOTO='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABIMDhAOCxIQDxAUExIVGy0dGxkZGzcoKiEtQjpFREA6Pz5IUWhYSE1iTj4/WntcYmtvdHZ0RleAiX9xiGhydHD/2wBDARMUFBsYGzUdHTVwSz9LcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHD/wgARCAIIASQDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/9oADAMBAAIQAxAAAAHqV3m87qzJ2GRuGC3RiahnVBLaFlqHK+lnKdSJ2yJdjCTa+UOk5kdpxB3Lis6jmR1HKHUSCbmyyWVFXZi2pbJiXUkKQyZtCegZuwgmxDcQWiCqMlsjFboxW4YGwIZSaYmmX0c2upfN04EZ6Rmq89SSglUhrZmJrJlSoBkQJFaZBqZBoQyiQokGCpgAAMFZQgQyWLz0AAlVJdpwZ6Z1NJjTmCLRYwQBLVCGCGEjLEyVblFJxZtNyCCIuRbQCTk3EDx2wHUscuYNM9AABADTAAQBLzqqAGgBDKvLSyHUCQosBVNSbCB4bYlsIUtFUAJghoBggKADCibNHlcWgUBFCDbKr3nnpkuek1mkXJoDJy1zKGRnRZI2JpgqmmJgkoZIJWamK2RLbEqIlip9fKV18u+CTUqW0VLYBE1IGQavINjMNHkzXTDss5p055aIChA759LHGsgMAAYmJgbb83XqYZ9fPGRallQjZwot84bmAbrJroog3OfGztjHQbolZQK8trDPKzdRmax1+ebGDNjFnR08OtnXlOddPKGbhWhAOFK57NTJGzz6Ixz1M9OLz/V4N4469nezDaXKxkVrwPWesy1M41gJ3wIpyZF0ZbNmfRnVlU5VkuHnajkvRENaq7M8brnz4tNerl6VV8mNnrE6ZoUE4+nx9OPDrrqZabRLM5B0Z1mZK4HSgOWe/U5n146mt+X6uLCSzdNp6JYkzzs4emdQz7IrivfGXnnaie/FpuMzrszw37cMTdqoJOU1nNl2E0Ifmeh42s93qcZjptksWufq5zpx66rr56eVY42sW7aOvK4kUzeeHbzry6KzTV1rnmIR65a7zoiSleMt4eJ6+p6fOLN4e3PQfz/t+Jqexzenjy7Ryejy1jz93Fvn7pHPz1WajO31Y+X15dj5I6Y+h8zqnh15s+jlmzv5O65tFaxJsHL0QrNs1xLXR5lt8fq8emd128Hfrjpzbeaj25vcs8/bzezHXfq5epI5X03PnV08U3pM1nV+X6nBrGVcO3Xl9DXjbc99mGHXjo+3l0uU+TxenP6U+dF+lGs2eHo5prJ6YO1DJ07n2+TvyejMuTQy6bODyO3zdT3ury/Rx01MdYy4+lnA8tJquDfzdYLit40qKDu4VHdyyGd4bVmZB9amc9Y53a8XP08s66PPR29rzPTy145x18qy4FrPo+W+tdu/zO/G3joZ3z+b7Hhax1Y81bxgJ2O59bN4dux4152XpefvOue3Zm+Ie959eWWV9WmsXC8eatuCOa67Dj1PqvP7fJmTnl7ztKVk9c+hLz9/k5516882/PoeZ3ZJ5MqO/GlvzGmmbhp6S53qjPLTE9KOHCXsJJfoxPN4+TuzrwLjp64ez6c31PD9rxowvLfedYrI6OvzvTl87fi745erlwPcnm349vH5vU8vtyJFZteW6TrnvLl05zLlj081mvLpmtgH0VM5bXB6vPZ856WPZ0w9cnnXo+N7PiazydPLpqaxUFeh5jl7YvCWMLx1nr9z576Tl04fB9zxazLjeL3w1FUtOjq8zWXo4iZZHWpJmS/Sta8t1xd3NvMKOyvO6ePujfxPT8veee1tZWdZFi0luYRGVxZr7Xi5Z10cwWa4aZl6RUGmO1mUVNXlvhLrLDI0I+ksOXTbn7eTUXXw9ZhqqzfK4Ovn7c4us0hTpU9CWdRlphciGumV5o0JXN5mo7SLz1M4EXnUS6iDUA+kRXLp0Y6c2pO2OudXjrwWefz7Y9eemcUTeWlnfydXHnT59cLLTktJDEyU3LXRy9VzjYHOCXTPTOW6mySSz6nbK+PSUqlGmPzO7yNZ5B69cZdLyOXu4uyXPKosfP0c5c1A2OOtbZ5cFGmkdXNrYJhzi0lmQW6SSjMr6ttcOoNCbo5PO9h7zlx+vNeJP0XAvl8/t+Pc4yjWNObp5V0ipHpntHTleOblUa7kaZapN5WuGmekuYUXWdiGWfTjrh1lMLU2YZwtTp7PG69TrOboTPyMNjzHcbzfN080XLQ9sdDow1xzc6RvL1xa1Wdxjc6LjpFkVNFGYn2CT49U0wbo8i+Xu1N8uvhOS+27PP20k8vn9Hr1PDO70k+aX1GZ85fucpxZ6RGYG8oaUTQXBKXmDAAA+sYcOruKsoYnl9PL01PR43s6UbZM8cdnlTR6/D32VQ7mHUGHmen5svnAGKa6ZYAk5gAUBgAAB9ch8epcWhcXZ5Tzq3n9jy/QruQa5mWkxDtFTQGd5mHnej5svntUYTcbgBYSyUTQAA0wAPrKT49WwS6mbIx0VcvoYdeo0mzIhaBoMVTFxm5eZ6nmHm1NE46ZajA1EClAAAAAYg+vGcejqLDPTJMHg6795rpiWOM00tAFxpFkTU5ufnej5x5YgWWueoJqhMBXIgAAAYfXprh0qpBSysaurN2HTEtOWGmVNpBp1nnplmz53o+ceUnNVnpCSmtEwLi5iQKBgAH1zDh1ABIELCt2HXnmwllhFgWJhWWQZq88DyEFUwMUGobhLr/9k=';document.querySelectorAll('.memory-photo').forEach(i=>i.src=PHOTO);
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+async function pasangFoto(file,id,err){try{const r=await fetch(file,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const b64=(await r.text()).trim();document.getElementById(id).src='data:image/jpeg;base64,'+b64}catch(e){const el=document.getElementById(err);if(el){el.style.display='block';el.textContent='foto gagal dimuat, refresh sekali ya.'}console.error(e)}}
+pasangFoto('./images/foto-1.b64.txt','foto1','err1');
+pasangFoto('./images/foto-2.b64.txt','foto2','err2');
 </script>
 </body>
 </html>
